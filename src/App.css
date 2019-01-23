@@ -30,3 +30,51 @@
     transform: rotate(360deg);
   }
 }
+
+.ml-5 {
+  margin-left: 5px
+}
+
+.mr-5 {
+  margin-right: 5px
+}
+
+.mt-50 {
+  margin-top: 50px
+}
+
+.test {
+  border: 1px solid black;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.dropdown-menu > li {
+  display: flex
+}
+
+.dropdown-menu > li > button {
+      border: 0;
+      border-radius: 0;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: normal;
+      line-height: 1.42857143;
+      color: rgb(8, 3, 3);
+      white-space: nowrap;
+      background-color: unset;
+}
+
+.dropdown-menu > li:hover  {
+      text-decoration: none;
+      color: #262626;
+      background-color: #f5f5f5;
+}
+
+.dropdown-menu > li:focus  {
+      text-decoration: none;
+      color: #262626;
+      background-color: #f5f5f5;
+}
